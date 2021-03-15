@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+section#a-empresa {
+    display: block;
+    max-width: 1500px;
+    width: 95%;
+    height: 52rem;
+    margin: auto auto;
+    padding-bottom: 20px;
+}
+
+section#a-empresa h1 {
+    color: #8A1CD6;
+    font-size: 7.5rem;
+}
+
+section#corpo {
+    display: block;
+    float: left;
+    width: 50%;
+    max-width: 730px;
+    margin: 1.5% 0 1% 6%;
+    padding-right: 1.5%;
+    height: auto;
+    border-right: 3px solid #2E0026;
+
+
+}
+
+aside#lateral {
+    display: block;
+    float: right;
+    width: 34%;
+    padding: 5px;
+    margin: 1.5% 6% 0 0;
+    background-color: #FFBDFD;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+section#corpo h2, aside#lateral h2 {
+    font-size: 4.5rem;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+section#corpo h2 {
+    color: #470542;
+}
+
+aside#lateral h2 {
+    background-color: #470542;
+    border-radius: 10px;
+    color: #FFBDFD;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .3);
+}
+
+section#corpo h3, aside#lateral h3 {
+    font-size: 3.5rem;
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section#corpo h3 {
+    color: #FFF;
+    background-color: #470542;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+
+}
+
+aside#lateral h3 {
+    color:#470542;
+}
+
+
+section#corpo p, aside#lateral p {
+    font-size: 2.7rem;
+    color: #2E0026;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 980px){
+    
+    article#sobre {
+        margin-bottom: 30px;
+    }
+
+    section#corpo {
+        width: 90%;
+        max-width: none;
+        margin: auto 5% auto 5%;
+        border: none;    
+    }
+    
+    aside#lateral {
+        float: left;
+        width: 90%;
+        max-width: none;
+        margin: 30px 5% 15px 5%;
+        padding: 0;
+        background-color: #FFBDFD;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    }
+
+    section#corpo h2, aside#lateral h2 {
+        font-size: 6.5rem;
+    }
+
+    section#corpo h3, aside#lateral h3 {
+        font-size: 4.3rem;
+        padding-left: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    section#corpo p, aside#lateral p {
+        font-size: 3rem;
+        padding: 10px;
+    }
+
+}

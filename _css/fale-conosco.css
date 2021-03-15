@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+
+    border: 1;
+    
+}
+
+section#formulario{
+    width: 95%;
+    margin: auto auto;
+}
+
+section#formulario h1 {
+    color: #8A1CD6;
+    font-size: 7.5rem;
+    margin: none;
+}
+
+
+form#fContato {
+    display: flex;
+    width: 85%;
+    max-width: 700px;
+    margin: auto auto 40px auto;
+    justify-content: center;
+}
+
+fieldset#form-principal {
+    width: 100%;
+    border: 2px solid black;
+}
+
+form#fContato legend {
+    font-size: 3rem;
+    padding: 10px;
+    color: #2e0026;
+}
+
+section#formulario p{
+    width: 50%;
+    font-size: 2rem;
+    padding: 10px;
+    margin: 0 0;
+    color: #2e0026;
+}
+
+label{
+    vertical-align: top;
+    padding-right: 10px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+
+.campo input, .campo textarea, .campo select {
+    border-radius: 4px;
+    padding: 3px 0 3px 7px ;
+    vertical-align: top;
+    border: 2px solid #000;
+    font-weight: bolder;
+    background-color: #fff;
+}
+
+textarea#imsg, input#inome, input#iemail{
+    min-width: 265px;
+ 
+}
+
+input#inome, input#iemail{
+    width: 90%;
+    max-width: 320px;
+}
+
+textarea#imsg{
+    width: 160%;
+}
+
+.campo input:focus, .campo textarea:focus, .campo select:focus {
+    background-color: #eeeeee;
+}
+
+input[type="file"] {
+display: none;
+}
+
+label.enviar-foto{
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    padding: 2px 6px;
+}
+
+
+.div-botao, .botao{
+    width: 130px;
+    margin: auto auto;
+}
+
+.botao {
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #000;
+    margin: 30px auto 20px auto;
+    font-size: 2.3rem;
+    font-family: 'Chau Philomene One', sans-serif;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+    cursor: pointer;
+    height: none;
+}

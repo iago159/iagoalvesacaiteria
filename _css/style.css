@@ -1,0 +1,354 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Chau Philomene One', sans-serif;
+    background-color: #e9e9e9;
+}
+
+header#cabecalho {
+    border-bottom: 5px solid black;
+    width: 92%;
+    max-width: 1300px;
+    height: 15rem;
+    margin: 0 auto;
+}
+
+.logo img {
+    margin: auto auto;
+    max-width: 30rem;
+    pointer-events: none
+}
+
+nav#menu {
+    display: block;
+    position: absolute;
+    top: 4.5rem;
+    text-align: right;
+    width: 86%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+nav#menu a {
+    color: #590453;
+    font-size: 20px;
+    vertical-align: middle;
+    text-decoration: none;
+    padding: 25px;
+    box-sizing: initial;
+    transition: 170ms;
+}
+
+nav#menu a:hover {
+    font-size: 26px;
+    padding: 20px;
+}
+
+nav#menu li {
+    display: inline-block;
+    transition: 150ms;
+}
+
+.interface {
+    width: 94%;
+    max-width: 1500px;
+    margin: 1% auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, .2);
+    background-color: #ffffff;
+}
+
+article#novidade {
+    display: block;
+    max-width: 1500px;
+    width: 95%;
+    height: 52rem;
+    margin: auto auto;
+    padding-bottom: 20px;
+}
+
+article#novidade h1 {
+    color: #8A1CD6;
+    font-size: 7.5rem;
+}
+
+section#texto-chamativo {
+    position: absolute;
+    width: 100%;
+    max-width: 760px;
+    height: 52rem;
+    margin-top: -80px;
+}
+
+section#texto-chamativo p {
+    color: #930E90;
+    font-size: 18rem;
+    line-height: 20rem;
+    margin-left: 11.7%;
+    padding-top: 90px;
+}
+
+.vazado p {
+    position: absolute;
+    left: -1%;
+    top: -1%;
+    line-height: 20rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #930E90 3px;
+}
+
+section#lateral-novidade {
+    position: relative;
+    color: #470542;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    max-width: 500px;
+    height: 52rem;
+    float: right;
+    margin-right: 1%;
+    margin-top: -8rem;
+    text-align: center;
+}
+
+section#lateral-novidade h2 {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: 5px;
+    color: #470542;
+}
+
+section#lateral-novidade sup {
+    text-decoration: none;
+    font-size: 5rem;
+    vertical-align: bottom;
+}
+
+section#lateral-novidade h3 {
+    margin-top: .5rem;
+    font-size: 2rem;
+}
+
+section#lateral-novidade .imagemQueFlipa {
+    width: 38.6rem;
+    height: 38.6rem;
+    margin: 0 auto;
+    perspective: 1200px;
+    text-align: center;
+}
+
+.imagemQueFlipa:hover .flip {
+    transform: rotateY(180deg);
+}
+
+section#lateral-novidade .flip {
+    transition: transform 0.65s;
+    transform-style: preserve-3d;
+    width: 38.6rem;
+    margin: 0 auto;
+}
+
+.frente img {
+    display: block;
+    margin: 0 auto;
+    width: 37rem;
+    border: solid 8px #470542;
+    border-radius: 10px;
+}
+
+.frente, .tras {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.tras {
+    transform: rotateY(180deg);
+    background-color: #470542;
+    height: 37rem;
+    width: 37rem;
+    border: solid 0.8rem #470542;
+    border-radius: 1rem;
+}
+
+.tras p {
+    color: #FFAD32;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.tras p:first-child {
+    font-family: 'Chau Philomene One', sans-serif;
+    font-size: 2.3rem;
+    color: #FFBDFD;
+    text-align: justify;
+}
+
+.tras p:nth-child(2) {
+    color: #FFAD32;
+    text-align: left;
+    font-size: 1.6rem;
+    margin-top: 1.2rem;
+}
+
+.tras p:nth-child(3) {
+    text-align: center;
+    font-size: 16rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: #FFAD32 5px;
+    line-height: 14.5rem;
+    transform: rotateY(30deg)
+}
+
+.tras p:nth-child(4) {
+    text-align: right;
+    font-size: 2.6rem;
+}
+
+article#outros-sabores {
+    display: inline-block;
+    width: 95%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+.sabores {
+    display: inline-block;
+    max-width: 21rem;
+    width: 100%;
+    vertical-align: top;
+    padding: 14px 0;
+    margin: 3% 0;
+}
+
+.sabores h2 {
+    font-size: 3rem;
+    color: #470542;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sabores p {
+    font-size: 1.8rem;
+    color: #470542;
+    text-align: center;
+}
+
+.sabores img {
+    width: 20rem;
+    border: solid 5px #470542;
+    border-radius: 10px;
+}
+
+.sabor-principal {
+    display: inline-block;
+    max-width: 24.8rem;
+    vertical-align: top;
+    text-align: center;
+    margin: 3% 13% 0 13%;
+}
+
+.sabor-principal h2 {
+    font-size: 3.4rem;
+    color: #470542;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sabor-principal p {
+    font-size: 1.8rem;
+    color: #470542;
+    text-align: center;
+}
+
+.sabor-principal img {
+    width: 22.8rem;
+    border: solid 7px #470542;
+    border-radius: 10px;
+}
+
+section#acompanhamentos {
+    display: inline-block;
+    width: 95%;
+    margin-left: 2.5%;
+    text-align: center;
+}
+
+section#acompanhamentos h1 {
+    color: #8A1CD6;
+    font-size: 7.5rem;
+    text-align: left;
+}
+
+.acompanhamentos {
+    display: inline-block;
+    height: 26rem;
+    width: 21rem;
+    max-width: 30%;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.acompanhamento-central {
+    display: inline-block;
+    width: 24.8rem;
+    max-width: 30%;
+    max-height: 26rem;
+    text-align: center;
+    margin: 0 13% 5% 13%;
+}
+
+
+.acompanhamentos h2, .acompanhamento-central h2 {
+    font-family: 'Charm', cursive;
+    color: #9a0d94;
+    font-size: 6rem;
+}
+
+.acompanhamentos p, .acompanhamento-central p {
+    text-align: center;
+    font-size: 2rem;
+    color: #470542;
+    font-weight: 500;
+}
+
+footer#rodape {
+    display: block;
+    border-top: 5px solid black;
+    width: 92%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 18rem;
+    clear: both;
+
+}
+
+footer#rodape p:first-child {
+    text-align: center;
+    color: #9a0d94;
+    font-size: 1.7rem;
+    margin: 0.4%;
+}
+
+footer#rodape p {
+    text-align: center;
+    color: #470542;
+    font-size: 2.5rem;
+    margin-top: 1%;
+}
+
+footer#rodape a {
+    color: #470542;
+    font-size: 2.2rem;
+    margin-top: 1%;
+}

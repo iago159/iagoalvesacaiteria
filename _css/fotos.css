@@ -1,0 +1,131 @@
+h1 {
+    color: #8A1CD6;
+    font-size: 7.5rem;
+    margin: none;
+}
+
+section#corpo {
+    width: 95%;
+    max-width: 1500px;
+    margin: auto auto;
+}
+
+section#descricao{
+    display: block;
+    margin: 1.5% 6% 1% 6%;
+}
+
+section#descricao h2 {
+    font-size: 4.5rem;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    color: #470542;
+
+}
+
+section#descricao p, section#descricao a{
+    font-size: 2.7rem;
+    color: #2E0026;
+    text-align: justify;
+}
+
+section#descricao span{
+    font-weight: 650;
+}
+
+section#fotos ul{
+    display: flex;
+    list-style: none;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+section#fotos li{
+    display: flex;
+    width: 30%;
+    min-width: 30rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 4rem;
+    margin-left: clamp(1.5rem, .5%, 3rem);
+    margin-right: clamp(1.5rem, .5%, 3rem);
+    transition-duration: 300ms;
+}
+
+section#fotos li img{
+    width: 30rem;
+    height: 30rem;
+    border: solid 8px #470542;
+    border-radius: 1rem;
+}
+
+section#fotos li p{
+    width: 30rem;
+    margin: auto auto 5px auto;
+    color: #fff;
+    font-size: 20px;
+    background-color: #470542;
+    text-align: center;
+    border-radius: 10px;
+}
+
+section#fotos li:hover{
+    transform: scale(1.05);
+}
+
+section#fotos li:hover img, li:hover p{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+@media (max-width: 530px){
+
+    section#fotos{
+        width: 95%;
+        margin: auto auto;
+    }
+
+    section#fotos li{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: auto auto 40px auto;
+        padding-left: 0;
+    }
+
+    section#fotos li img{
+        width: 95%;
+        height: 100%;
+    }
+
+    section#fotos li p{
+        text-align: left;
+        padding-left: 10px;
+        margin-left: 0;
+    }
+
+    section#fotos li:hover, li:hover p{
+        transform: none;
+        box-shadow: none;
+    }
+   
+    section#fotos li:hover img{
+        transform: none;
+        box-shadow: none;
+    }
+
+    section#fotos li:active{
+        transform: scale(1.05);
+    }
+    
+    section#fotos li:active img, li:active p{
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    }
+
+
+
+}

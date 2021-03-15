@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+
+<html lang="pt-br">
+
+<head>
+    <title>Iago Alves Acaiteria</title>
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="_css/media.css">
+    <link rel="stylesheet" href="_css/fale-conosco.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+
+    <div class="interface">
+
+        <header id="cabecalho">
+
+            <div class="menu-section">
+                <div class="menu-toggle">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </div>
+
+                <div class="logo">
+                    <img src="_imagens/IagoAlves-LogoP.png">
+
+                </div>
+
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html"> SABORES </a></li>
+                        <li><a href="a-empresa.html"> A EMPRESA </a></li>
+                        <li><a href="fotos.html"> FOTOS </a></li>
+                        <li><a href="fale-conosco.html"> FALE CONOSCO </a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </header>
+
+        <section id="formulario">
+            <h1>Fale Conosco</h1>
+
+            <form method="GET" id="fContato">
+                <fieldset id="form-principal">
+                    <legend>Conta pra gente</legend>
+
+                    <div class="campo">
+                        <p><label for="inome">Nome</label> <input type="text" name="nnome" id="inome" size="25"
+                                maxlength="25" placeholder="Nome Completo" required> </p>
+                        <p><label for="iemail">E-mail</label> <input type="email" name="nemail" id="iemail" size="30"
+                                placeholder="seuemail@dominio.com"></p>
+
+                        <p><label class="data" for="idata">Data de nascimento</label> <br> <input type="date" name="ndata" id="idata"></p>
+                    </div>
+
+                    <div class="campo">
+                        <p><label class="regiao" for="ireg">Região de Atendimento</label> <br> <select name="nreg" id="ireg" required>
+                                <optgroup label="Brasil">
+                                    <option>Centro-Oeste</option>
+                                    <option>Nordeste</option>
+                                    <option>Norte</option>
+                                    <option>Sul</option>
+                                    <option>Suldeste</option>
+                                </optgroup>
+                                <optgroup label="América Latina">
+                                    <option>Argentina</option>
+                                    <option>Paraguai</option>
+                                    <option>Bolivia</option>
+                                </optgroup>
+                                <optgroup label="Europa">
+                                    <option>Portugal</option>
+                                    <option>Espanha</option>
+                                </optgroup>
+                            </select></p>
+                    </div>
+
+                    <div class="campo">
+                        <p><label for="imsg">Deixe uma mensagem</label>
+                            <textarea name="nmsg" id="imsg" rows="6"
+                                placeholder="Conte para nós como foi sua experiência na Iago Alves Açaiteria Gourmet!"
+                                required></textarea>
+                        </p>
+                    </div>
+
+                    <div class="campo">
+                            <p><label class="enviar-foto" for="ifoto">Compartilhe sua foto conosco!</label>
+                                <input type="file" name="nfoto" id="ifoto" accept="image/*">
+                            </p>
+                    </div>
+
+                    <div class="div-botao">
+                        <button class="botao" type="submit">Concluido</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+
+        <footer id="rodape">
+            <p>Essa açaiteria é fictícia, criada única e exclusivamente para particar HTML CSS JavaScript e Java Web
+            </p>
+            <p>© Copyright 2021 - Iago Alves Brito
+                <br><a href="https://www.linkedin.com/in/iagoalves-dev/" target="_blank">Linkedin</a> | <a
+                    href="https://github.com/iago159" target="_blank">Github</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="_javascript/menu.js"></script>
+
+</body>
