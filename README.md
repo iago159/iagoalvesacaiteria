@@ -5,7 +5,7 @@
 
 http://iagoalvesacaiteria.atspace.eu
 
-Iago Alves Açaiteria Gourmet é uma aplicação web construida como forma de estudo das linguagens HTML CSS e JavaScript.
+Iago Alves Açaiteria Gourmet é uma aplicação web construída como forma de estudo das linguagens HTML CSS puro e JavaScript puro.
 
 # Tecnologias Utilizadas
 
