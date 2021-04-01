@@ -5,7 +5,7 @@
 
 http://iagoalvesacaiteria.atspace.eu
 
-Iago Alves Açaiteria Gourmet é uma aplicação web construída como forma de estudo das linguagens HTML CSS puro e JavaScript puro.
+A Iago Alves Açaiteria Gourmet é uma aplicação web construída como forma de estudo das linguagens HTML CSS puro e JavaScript puro.
 
 # Tecnologias Utilizadas
 
@@ -15,19 +15,34 @@ Iago Alves Açaiteria Gourmet é uma aplicação web construída como forma de e
 
 # Layout desktop
 
-![Index](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/01_Index.png)
-![Interacao](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/05_Interacao.gif)
-![Empresa](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/02_Empresa.png)
-![Fotos](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/03_Fotos.png)
-![Contato](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/04_Contato.png)
+## Sabores (Página Principal)
+![Index](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/01_Desktop_Index.gif)
+
+## A Empresa
+![Empresa](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/02_Desktop_AEmpresa.png)
+
+## Fotos
+![Fotos](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/03_Desktop_Fotos.png)
+
+## Fale Conosco
+![Contato](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Desktop/04_Desktop_FaleConosco.png)
 
 # Layout mobile
-![Index](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/01_Index.png)
-![Interacao](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/06_Interacao.gif)
-![Empresa](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/02_Empresa.png)
-![Fotos](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/03_Fotos.png)
-![Contato](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/04_Contato.png)
-![Menu](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/05_Menu.png)
+
+## Interação e menu
+![Interacao e menu](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/00_Mobile_MenuEInteracao.gif)
+
+## Sabores (Página Principal)
+![Index](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/01_Mobile_Index.png)
+
+## A Empresa
+![Empresa](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/02_Mobile_AEmpresa.png)
+
+## Fotos
+![Fotos](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/03_Mobile_Fotos.png)
+
+## Fale Conosco
+![Contato](https://github.com/iago159/iagoalvesacaiteria/blob/main/_Interface/_Mobile/04_Mobile_FaleConosco.png)
 
 # Autor
 
